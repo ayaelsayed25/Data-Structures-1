@@ -10,7 +10,11 @@ public class SimpleCalc implements ICalculator{
         {
             throw new RuntimeException("Can't divide by zero!");
         }
-        return x/y;
+        else
+        {
+        
+            return (float)x/y;
+        }
     }
     
 }
